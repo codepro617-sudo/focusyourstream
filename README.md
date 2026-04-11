@@ -1,4 +1,4 @@
-# Focus Your Stream (FYS) - Chrome Extension
+# streamel - Chrome Extension
 
 A browser extension that replaces YouTube's chat UI with a custom, unified multistream chat interface supporting YouTube, Twitch, polls, and keyword focus mode.
 
@@ -13,22 +13,20 @@ A browser extension that replaces YouTube's chat UI with a custom, unified multi
 - **OBS Ready**: Architecture prepared for OBS overlay integration
 
 ## Installation
-
-### Step 1: Create Icons (Required for Chrome Web Store)
-
-Create simple PNG icons in the `icons/` folder:
-- `icon16.png` (16x16 pixels)
-- `icon48.png` (48x48 pixels)
-- `icon128.png` (128x128 pixels)
-
-For development/testing, you can use any 16x16, 48x48, and 128x128 PNG images.
-
-### Step 2: Load the Extension in Chrome
+### Step 1: Load the Extension in Chrome
 
 1. Open Chrome and navigate to `chrome://extensions/`
 2. Enable "Developer mode" (toggle in top right)
 3. Click "Load unpacked"
 4. Select the `Focus Your Stream` folder
+   
+### Step 2: log in
+
+1. Navigate to https://loukas.afantenos.gr
+2. select log in
+3. log in with your platforms
+4. enjoy the new expirience
+
 
 ### Step 3: Usage
 
@@ -41,7 +39,7 @@ For development/testing, you can use any 16x16, 48x48, and 128x128 PNG images.
 ## File Structure
 
 ```
-Focus Your Stream/
+streamel/
 ├── manifest.json      # Extension configuration
 ├── background.js      # Central chat store and message broker
 ├── youtube.js         # YouTube content script
